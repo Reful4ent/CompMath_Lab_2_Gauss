@@ -12,3 +12,4 @@ C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\refin
 C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.pdb
 C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.genruntimeconfig.cache
 C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\ref\CompMath_Lab_2.dll
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.sourcelink.json
