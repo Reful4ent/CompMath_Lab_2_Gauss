@@ -1,0 +1,14 @@
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\bin\Debug\net8.0\CompMath_Lab_2.exe
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\bin\Debug\net8.0\CompMath_Lab_2.deps.json
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\bin\Debug\net8.0\CompMath_Lab_2.runtimeconfig.json
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\bin\Debug\net8.0\CompMath_Lab_2.dll
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\bin\Debug\net8.0\CompMath_Lab_2.pdb
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.AssemblyInfoInputs.cache
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.AssemblyInfo.cs
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.dll
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\refint\CompMath_Lab_2.dll
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.pdb
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\CompMath_Lab_2.genruntimeconfig.cache
+C:\Users\dima2\source\repos\CompMath_Lab_2\CompMath_Lab_2\obj\Debug\net8.0\ref\CompMath_Lab_2.dll
