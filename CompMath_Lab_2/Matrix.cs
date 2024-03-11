@@ -52,9 +52,10 @@ namespace CompMath_Lab_2
             {
                 for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
                 {
-                    Console.Write(mainMatrix[i, j] + " ");
+                    Console.Write(mainMatrix[i, j]+" ");
                 }
-                Console.Write("\t" + ansMatrix[i]);
+                Console.Write("\t\t\t");
+                Console.Write("{0:f8}",ansMatrix[i]);
                 Console.WriteLine();
             }
         }

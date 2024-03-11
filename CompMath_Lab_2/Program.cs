@@ -11,4 +11,5 @@ Matrix.CreateMatrix(3,out matrix,out result);
 Matrix.PrintMatrix(matrix,result);
 
 Console.WriteLine();
-GaussMethod.GaussWOElement(matrix, result);
+//GaussMethod.GaussWOElement(matrix, result);
+GaussMethod.GaussWithElement(matrix, result);
