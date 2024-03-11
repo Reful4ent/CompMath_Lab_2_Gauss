@@ -11,9 +11,8 @@ namespace CompMath_Lab_2
     {
         /// <summary>
         /// Метод Гауса без выбора главного элемента
+        /// Gauss's method w/o main element
         /// </summary>
-        /// <param name="mainMatrix"></param>
-        /// <param name="freeMembers"></param>
         public static void GaussWOElement(float[,] mainMatrix, float[] freeMembers)
         {
             if (mainMatrix[0,0] == 0)
@@ -31,7 +30,10 @@ namespace CompMath_Lab_2
             ReverseMotion(mainMatrix, freeMembers);
         }
 
-
+        /// <summary>
+        /// Метод гауса с выбором главного элемента по строке
+        /// Gauss's method with the selection of main element by line
+        /// </summary>
         public static void GaussWithElement(float[,] mainMatrix, float[] freeMembers)
         {
             for(int i = 0; i < mainMatrix.GetUpperBound(1)+1; i++)
@@ -49,7 +51,12 @@ namespace CompMath_Lab_2
         }
 
 
-
+        /// <summary>
+        /// Изменяет порядок столбцов в матрице
+        /// Change columns in the matrix
+        /// </summary>
+        /// <param name="mainMatrix"></param>
+        /// <param name="row"></param>
         private static void ChangeColumns(ref float[,] mainMatrix,int row)
         {
             float maxValue = mainMatrix[row, 0];
@@ -74,9 +81,8 @@ namespace CompMath_Lab_2
 
         /// <summary>
         /// Если первый элемент в первой  строке нулевой - делаем замену
+        /// If the first element in the first line is zero - change lines
         /// </summary>
-        /// <param name="mainMatrix"></param>
-        /// <param name="freeMembers"></param>
         private static void ChangeLines(float[,] mainMatrix, float[] freeMembers)
         {
             float[] temp = new float[mainMatrix.GetUpperBound(0)+1];
@@ -105,9 +111,8 @@ namespace CompMath_Lab_2
 
         /// <summary>
         /// Обратный ход для метода Гауса
+        /// Reverse motion for Gauss's method
         /// </summary>
-        /// <param name="mainMatrix"></param>
-        /// <param name="freeMembers"></param>
         private static void ReverseMotion(float[,] mainMatrix, float[]freeMembers)
         {
             float sum = 0;
@@ -119,16 +124,16 @@ namespace CompMath_Lab_2
                 sum = 0;
             }
 
-            //В свободных членах - ответ, в матрице 1 - искомый икс
-            for (int i = 0; i < mainMatrix.GetUpperBound(0) + 1; i++)
-            {
-                for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
-                {
-                    if (i == j)
-                        mainMatrix[i, j] = 1;
-                    else mainMatrix[i, j] = 0;
-                }
-            }
+            ////В свободных членах - ответ, в матрице 1 - искомый икс
+            //for (int i = 0; i < mainMatrix.GetUpperBound(0) + 1; i++)
+            //{
+            //    for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
+            //    {
+            //        if (i == j)
+            //            mainMatrix[i, j] = 1;
+            //        else mainMatrix[i, j] = 0;
+            //    }
+            //}
             Matrix.PrintMatrix(mainMatrix,freeMembers);
         }
         

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompMath_Lab_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba14ef50f5c95efb2ba95a9eb06ffdc531064e06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+033cf4beeb8ab5493a9a14eec9e24449a2a3e33b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompMath_Lab_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompMath_Lab_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
