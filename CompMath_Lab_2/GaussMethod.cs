@@ -113,7 +113,7 @@ namespace CompMath_Lab_2
         /// Обратный ход для метода Гауса
         /// Reverse motion for Gauss's method
         /// </summary>
-        private static void ReverseMotion(float[,] mainMatrix, float[]freeMembers)
+        public static void ReverseMotion(float[,] mainMatrix, float[]freeMembers)
         {
             float sum = 0;
             for(int i = mainMatrix.GetUpperBound(0);i >= 0; i--)

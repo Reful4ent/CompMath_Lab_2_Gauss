@@ -16,4 +16,6 @@ Matrix.PrintMatrix(matrix,result);
 
 Console.WriteLine("Simple");
 
-SimpleIterations.SimpleMethod(matrix,result,0.0001F);
+//SimpleIterations.SimpleMethod(matrix,result,0.0001F);
+
+PassingMethod.PassingFirstIteration(matrix,result);
