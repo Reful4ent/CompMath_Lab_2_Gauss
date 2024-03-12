@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CompMath_Lab_2
+﻿namespace CompMath_Lab_2
 {
     public static class Matrix
     {
@@ -18,15 +11,12 @@ namespace CompMath_Lab_2
                                    };
         public static float[] ansA = { 60, 180.00001F, 15 };
 
-        public static float[,] matrixB = { { 1, 2, 15, 1 },
-                                    { -1, 3, 2, 20 },
-                                    { 10, 1, 1, 1 },
-                                    { 2, 14, 3, -2 },
+        public static float[,] matrixB = { { 3, 1, 10 },
+                                    { 14, 2, 3 },
+                                    { 2, 12, 3 }
                                   };
-        public static float[] ansB = { 19, 24, 13, 17 };
+        public static float[] ansB = { 18, 35, 31 };
         
-
-
         public static void CreateMatrix(int size, out float[,] mainMatrix, out float[] freeMembers)
         {
             mainMatrix = new float[size, size];

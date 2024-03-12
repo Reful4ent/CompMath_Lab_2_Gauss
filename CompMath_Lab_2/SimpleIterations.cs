@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CompMath_Lab_2
+﻿namespace CompMath_Lab_2
 {
     public static class SimpleIterations
     {
-
         public static void SimpleMethod(float[,] mainMatrix, float[] freeMembers, float accuracy)
         {
             float[] beta = new float[freeMembers.Length];
@@ -78,7 +69,6 @@ namespace CompMath_Lab_2
             Matrix.PrintMatrix(alpha, X);
         }
 
-
         /// <summary>
         /// Проверяет критерий остановки если норма матрицы <1/2
         /// Checks stopping criterion if the norm of matrix < 1/2
@@ -138,7 +128,6 @@ namespace CompMath_Lab_2
 
             norm = alphaNorm = (float)Math.Sqrt(alphaNorm);
             return alphaNorm > 1;
-
         }
     }
 }

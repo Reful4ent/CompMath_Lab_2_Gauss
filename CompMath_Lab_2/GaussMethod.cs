@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CompMath_Lab_2
+﻿namespace CompMath_Lab_2
 {
     public static class GaussMethod
     {
@@ -50,7 +43,6 @@ namespace CompMath_Lab_2
             ReverseMotion(mainMatrix, freeMembers);
         }
 
-
         /// <summary>
         /// Изменяет порядок столбцов в матрице
         /// Change columns in the matrix
@@ -77,7 +69,6 @@ namespace CompMath_Lab_2
             for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
                 mainMatrix[j, row] = temp[j];
         }
-
 
         /// <summary>
         /// Если первый элемент в первой  строке нулевой - делаем замену
@@ -107,8 +98,6 @@ namespace CompMath_Lab_2
 
         }
 
-
-
         /// <summary>
         /// Обратный ход для метода Гауса
         /// Reverse motion for Gauss's method
@@ -123,19 +112,7 @@ namespace CompMath_Lab_2
                 freeMembers[i] = 1 / mainMatrix[i, i]*(freeMembers[i]-sum);
                 sum = 0;
             }
-
-            ////В свободных членах - ответ, в матрице 1 - искомый икс
-            //for (int i = 0; i < mainMatrix.GetUpperBound(0) + 1; i++)
-            //{
-            //    for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
-            //    {
-            //        if (i == j)
-            //            mainMatrix[i, j] = 1;
-            //        else mainMatrix[i, j] = 0;
-            //    }
-            //}
             Matrix.PrintMatrix(mainMatrix,freeMembers);
         }
-        
     }
 }

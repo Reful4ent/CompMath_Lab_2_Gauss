@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-using CompMath_Lab_2;
+﻿using CompMath_Lab_2;
 
 float[,] matrix;
 float[] result;
@@ -18,4 +13,4 @@ Console.WriteLine("Simple");
 
 //SimpleIterations.SimpleMethod(matrix,result,0.0001F);
 
-PassingMethod.PassingFirstIteration(matrix,result);
+PassingMethod.PassingIteration(matrix,result);
