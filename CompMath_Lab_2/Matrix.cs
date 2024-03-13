@@ -5,9 +5,15 @@
         /// <summary>
         /// For the TASK
         /// </summary>
-        public static float[,] matrixA = { { 10, 20, 30 },
-                                    { 40, 80.00001F, 60 },
-                                    { 5, -15, 25 },
+        //public static float[,] matrixA = { { 10, 20, 30 },
+        //                            { 40, 80.00001F, 60 },
+        //                            { 5, -15, 25 },
+        //                        };
+        //public static float[] ansA = { 60, 180.00001F, 15 };
+
+        public static float[,] matrixA = { { 10, -6, 8 },
+                                    { 4, 0, -2 },
+                                    { 5, 1, 0 },
                                 };
         public static float[] ansA = { 60, 180.00001F, 15 };
 

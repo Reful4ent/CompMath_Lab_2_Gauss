@@ -50,7 +50,7 @@ switch (whatSLAE)
                 Console.WriteLine("-----Метод Гаусса без выбора главного значения-----");
                 Console.WriteLine("Исходная система уравнений:");
                 Matrix.PrintMatrix(Matrix.matrixA, Matrix.ansA);
-                Console.WriteLine("\nПреобразованная система уравнений:");
+                Console.WriteLine("\nПреобразованные система уравнений:");
                 GaussMethod.GaussWOElement(Matrix.matrixA, Matrix.ansA);
                 break;
             case 2:

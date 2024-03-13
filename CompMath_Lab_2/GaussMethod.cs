@@ -8,8 +8,13 @@
         /// </summary>
         public static void GaussWOElement(float[,] mainMatrix, float[] freeMembers)
         {
-            if (mainMatrix[0,0] == 0)
-                ChangeLines(mainMatrix, freeMembers);
+            for(int i = 0; i < freeMembers.Length; i++) 
+            {
+                if (mainMatrix[i, i] == 0)
+                    ChangeLines(mainMatrix, freeMembers,i);
+                Matrix.PrintMatrix(mainMatrix, freeMembers);
+                Console.WriteLine();
+            }
             for (int i = 0; i < mainMatrix.GetUpperBound(0) + 1; i++)
             {
                 for (int j = i+1; j < mainMatrix.GetUpperBound(0) + 1; j++)
@@ -49,7 +54,7 @@
         /// </summary>
         /// <param name="mainMatrix"></param>
         /// <param name="row"></param>
-        private static void ChangeColumns(ref float[,] mainMatrix,int row)
+        private static void ChangeColumns(ref float[,] mainMatrix, int row)
         {
             float maxValue = mainMatrix[row, 0];
             float[] temp = new float[mainMatrix.GetUpperBound(0) + 1];
@@ -74,11 +79,11 @@
         /// Если первый элемент в первой  строке нулевой - делаем замену
         /// If the first element in the first line is zero - change lines
         /// </summary>
-        private static void ChangeLines(float[,] mainMatrix, float[] freeMembers)
+        private static void ChangeLines(float[,] mainMatrix, float[] freeMembers, int row)
         {
             float[] temp = new float[mainMatrix.GetUpperBound(0)+1];
             float tempElement;
-            for (int i = 1;i < mainMatrix.GetUpperBound(0) + 1; i++)
+            for (int i = row;i < mainMatrix.GetUpperBound(0) + 1; i++)
             {
                 if (mainMatrix[i,0] != 0)
                 {
