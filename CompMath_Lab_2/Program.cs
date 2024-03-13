@@ -99,7 +99,8 @@ switch (whatSLAE)
 
         float[,] matrix;
         float[] result;
-        Console.WriteLine("Запишите значения в СЛАУ (каждое число отдельно через Enter):");
+        Console.WriteLine("Запишите значения в СЛАУ (каждое число отдельно через Enter)");
+        Console.WriteLine("Сначала числа матрицы (a_11, a_12, ..., a_nn), затем свободные члены (соотвествтенно строкам):");
         Matrix.CreateMatrix(size, out matrix, out result);
         Console.Clear();
 

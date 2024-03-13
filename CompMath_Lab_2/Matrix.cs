@@ -38,11 +38,11 @@
             {
                 for (int j = 0; j < mainMatrix.GetUpperBound(1) + 1; j++)
                 {
-                    mainMatrix[i,j] = Convert.ToInt32( Console.ReadLine());
+                    mainMatrix[i,j] = (float)Convert.ToDouble( Console.ReadLine());
                 }
             }
             for(int i = 0; i < mainMatrix.GetUpperBound(0) + 1; i++)
-                freeMembers[i] = Convert.ToInt32(Console.ReadLine());
+                freeMembers[i] = (float)Convert.ToDouble(Console.ReadLine());
         }
 
         public static void PrintMatrix(float[,] mainMatrix, float[] ansMatrix)
